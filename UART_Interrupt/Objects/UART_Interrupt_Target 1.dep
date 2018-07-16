@@ -1,0 +1,149 @@
+Dependencies for Project 'UART_Interrupt', Target 'Target 1': (DO NOT MODIFY !)
+F (.\UART_Interrupt.c)(0x5B0F9432)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\Huins_NXP_LPC1768_Library\Drivers\include -I ..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\uart_interrupt.o --omf_browse .\objects\uart_interrupt.crf --depend .\objects\uart_interrupt.d)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\LPC1768_utility.h)(0x54DC45E0)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_gpio.h)(0x54D83E6C)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\LPC17xx.h)(0x4FBF201A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B7534)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CDD8A)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\system_LPC17xx.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc_types.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\LPC1768_Huins.h)(0x54DB1DBE)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_pinsel.h)(0x54D1B634)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_exti.h)(0x54D1BA3C)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_uart.h)(0x54DB17CC)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\debug_frmwrk.h)(0x4FBF201A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B7534)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B7534)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B7534)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B7534)
+F (..\Huins_NXP_LPC1768_Library\Drivers\source\lpc17xx_gpio.c)(0x54D9CF12)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\Huins_NXP_LPC1768_Library\Drivers\include -I ..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\lpc17xx_gpio.o --omf_browse .\objects\lpc17xx_gpio.crf --depend .\objects\lpc17xx_gpio.d)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_gpio.h)(0x54D83E6C)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\LPC17xx.h)(0x4FBF201A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B7534)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CDD8A)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\system_LPC17xx.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc_types.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_libcfg_default.h)(0x54DB1DBE)
+F (..\Huins_NXP_LPC1768_Library\Drivers\source\lpc17xx_nvic.c)(0x4FBF201A)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\Huins_NXP_LPC1768_Library\Drivers\include -I ..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\lpc17xx_nvic.o --omf_browse .\objects\lpc17xx_nvic.crf --depend .\objects\lpc17xx_nvic.d)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_nvic.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\LPC17xx.h)(0x4FBF201A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B7534)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CDD8A)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\system_LPC17xx.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc_types.h)(0x4FBF201A)
+F (..\Huins_NXP_LPC1768_Library\Drivers\source\LPC1768_utility.c)(0x5AE950DF)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\Huins_NXP_LPC1768_Library\Drivers\include -I ..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\lpc1768_utility.o --omf_browse .\objects\lpc1768_utility.crf --depend .\objects\lpc1768_utility.d)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\LPC1768_utility.h)(0x54DC45E0)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_gpio.h)(0x54D83E6C)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\LPC17xx.h)(0x4FBF201A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B7534)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CDD8A)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\system_LPC17xx.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc_types.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\LPC1768_Huins.h)(0x54DB1DBE)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_pinsel.h)(0x54D1B634)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_exti.h)(0x54D1BA3C)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_uart.h)(0x54DB17CC)
+F (..\Huins_NXP_LPC1768_Library\Drivers\source\lpc17xx_pinsel.c)(0x54D9F40C)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\Huins_NXP_LPC1768_Library\Drivers\include -I ..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\lpc17xx_pinsel.o --omf_browse .\objects\lpc17xx_pinsel.crf --depend .\objects\lpc17xx_pinsel.d)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_pinsel.h)(0x54D1B634)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\LPC17xx.h)(0x4FBF201A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B7534)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CDD8A)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\system_LPC17xx.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc_types.h)(0x4FBF201A)
+F (..\Huins_NXP_LPC1768_Library\Drivers\source\lpc17xx_uart.c)(0x54E07462)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\Huins_NXP_LPC1768_Library\Drivers\include -I ..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\lpc17xx_uart.o --omf_browse .\objects\lpc17xx_uart.crf --depend .\objects\lpc17xx_uart.d)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_uart.h)(0x54DB17CC)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\LPC17xx.h)(0x4FBF201A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B7534)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CDD8A)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\system_LPC17xx.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc_types.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_gpio.h)(0x54D83E6C)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_pinsel.h)(0x54D1B634)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\LPC1768_Huins.h)(0x54DB1DBE)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_clkpwr.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_libcfg_default.h)(0x54DB1DBE)
+F (..\Huins_NXP_LPC1768_Library\Drivers\source\lpc17xx_libcfg_default.c)(0x54E1CBFE)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\Huins_NXP_LPC1768_Library\Drivers\include -I ..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\lpc17xx_libcfg_default.o --omf_browse .\objects\lpc17xx_libcfg_default.crf --depend .\objects\lpc17xx_libcfg_default.d)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_libcfg_default.h)(0x54DB1DBE)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc_types.h)(0x4FBF201A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B7534)
+F (..\Huins_NXP_LPC1768_Library\Drivers\source\debug_frmwrk.c)(0x54DB191C)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\Huins_NXP_LPC1768_Library\Drivers\include -I ..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\debug_frmwrk.o --omf_browse .\objects\debug_frmwrk.crf --depend .\objects\debug_frmwrk.d)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\debug_frmwrk.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_uart.h)(0x54DB17CC)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\LPC17xx.h)(0x4FBF201A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B7534)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CDD8A)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\system_LPC17xx.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc_types.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_gpio.h)(0x54D83E6C)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_pinsel.h)(0x54D1B634)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\LPC1768_Huins.h)(0x54DB1DBE)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_libcfg_default.h)(0x54DB1DBE)
+F (..\Huins_NXP_LPC1768_Library\Drivers\source\lpc17xx_clkpwr.c)(0x4FBF201A)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\Huins_NXP_LPC1768_Library\Drivers\include -I ..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\lpc17xx_clkpwr.o --omf_browse .\objects\lpc17xx_clkpwr.crf --depend .\objects\lpc17xx_clkpwr.d)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_clkpwr.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\LPC17xx.h)(0x4FBF201A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B7534)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CDD8A)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\system_LPC17xx.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc_types.h)(0x4FBF201A)
+F (.\Uart_protocol.c)(0x5B220C99)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\Huins_NXP_LPC1768_Library\Drivers\include -I ..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\uart_protocol.o --omf_browse .\objects\uart_protocol.crf --depend .\objects\uart_protocol.d)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\LPC1768_utility.h)(0x54DC45E0)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_gpio.h)(0x54D83E6C)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\LPC17xx.h)(0x4FBF201A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B7534)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CDD8A)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\system_LPC17xx.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc_types.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\LPC1768_Huins.h)(0x54DB1DBE)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_pinsel.h)(0x54D1B634)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_exti.h)(0x54D1BA3C)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_uart.h)(0x54DB17CC)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\debug_frmwrk.h)(0x4FBF201A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B7534)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B7534)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B7534)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B7534)
+F (.\Protocol.c)(0x5B0F9CB2)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\Huins_NXP_LPC1768_Library\Drivers\include -I ..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\protocol.o --omf_browse .\objects\protocol.crf --depend .\objects\protocol.d)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\LPC1768_utility.h)(0x54DC45E0)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_gpio.h)(0x54D83E6C)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\LPC17xx.h)(0x4FBF201A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B7534)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CDD8A)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\system_LPC17xx.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc_types.h)(0x4FBF201A)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\LPC1768_Huins.h)(0x54DB1DBE)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_pinsel.h)(0x54D1B634)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_exti.h)(0x54D1BA3C)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\lpc17xx_uart.h)(0x54DB17CC)
+I (..\Huins_NXP_LPC1768_Library\Drivers\include\debug_frmwrk.h)(0x4FBF201A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B7534)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B7534)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B7534)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B7534)
+F (RTE\Device\LPC1768\startup_LPC17xx.s)(0x5848CF12)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\startup_lpc17xx.o --depend .\objects\startup_lpc17xx.d)
+F (RTE\Device\LPC1768\system_LPC17xx.c)(0x5848CF12)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\Huins_NXP_LPC1768_Library\Drivers\include -I ..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\system_lpc17xx.o --omf_browse .\objects\system_lpc17xx.crf --depend .\objects\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B7534)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\LPC17xx.h)(0x4FBF201A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559CDD8A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559CDD8A)
+I (..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\system_LPC17xx.h)(0x4FBF201A)
