@@ -22,19 +22,24 @@ Dialog DLL:      TARMP1.DLL V1.26.0.0
  
 <h2>Project:</h2>
 C:\Users\lg\Desktop\Firmware\Input\Input.uvprojx
-Project File Date:  05/03/2018
+Project File Date:  06/22/2018
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
-Build target 'Target 1'
-compiling test3.c...
-test3.c(16): warning:  #1-D: last line of file ends without a newline
-  }
-test3.c: 1 warning, 0 errors
+Rebuild target 'Target 1'
+compiling lpc17xx_exti.c...
+compiling LPC1768_utility.c...
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_nvic.c...
+compiling interrupt.c...
+assembling startup_LPC17xx.s...
+compiling LPC1768_fnd.c...
+compiling system_LPC17xx.c...
 linking...
-Program Size: Code=884 RO-data=236 RW-data=4 ZI-data=612  
+Program Size: Code=1820 RO-data=236 RW-data=8 ZI-data=608  
 FromELF: creating hex file...
-".\Objects\Input.axf" - 0 Error(s), 1 Warning(s).
+".\Objects\Input.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -51,10 +56,10 @@ Package Vendor: Keil
 <h2>Collection of Component Files used:</h2>
 
    * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_LPC17xx.s
       Include file:  Device\Include\LPC17xx.h
       Source file:   Device\Source\system_LPC17xx.c
-      Source file:   Device\Source\ARM\startup_LPC17xx.s
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

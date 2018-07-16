@@ -1,13 +1,19 @@
 #include "LPC1768_utility.h"
 #include "LPC1768_fnd.h"
+#include "LPC17xx.h"
 
 uint8_t Led_Count = 1;
 
 
+
 int main(void)
 {
+	LED_init();
 	EXTI_Init();
 	FND_Init();
+	
+	led_All_off();
+	
 	AF_ConfigPin(GPIO_PORT_2,PINSEL_PIN_10,PINSEL_FUNC_1);
 	
 	EXTI_ConfigPin(EXTI_EINT0);

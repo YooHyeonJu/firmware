@@ -3,7 +3,7 @@
 
 int Led_Count = 0;
 
-
+//interrupt들어오면 fnd에 값 0~9까지 보여준다.
 
 int main(void)
 {
