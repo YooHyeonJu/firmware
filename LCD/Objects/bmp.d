@@ -1,0 +1,13 @@
+.\objects\bmp.o: bmp.c
+.\objects\bmp.o: lcd_header.h
+.\objects\bmp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bmp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\bmp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\bmp.o: ..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\LPC17xx.H
+.\objects\bmp.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\objects\bmp.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\objects\bmp.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\objects\bmp.o: ..\Huins_NXP_LPC1768_Library\Core\Device\NXP\LPC17xx\Include\system_LPC17xx.h
+.\objects\bmp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\bmp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\bmp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h

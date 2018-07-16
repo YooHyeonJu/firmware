@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+".\objects\debug_frmwrk.o"
+".\objects\lpc17xx_adc.o"
+".\objects\lpc17xx_can.o"
+".\objects\lpc17xx_clkpwr.o"
+".\objects\lpc17xx_exti.o"
+".\objects\lpc17xx_gpio.o"
+".\objects\lpc17xx_i2c.o"
+".\objects\lpc17xx_libcfg_default.o"
+".\objects\lpc17xx_nvic.o"
+".\objects\lpc17xx_pinsel.o"
+".\objects\lpc17xx_spi.o"
+".\objects\lpc17xx_timer.o"
+".\objects\lpc17xx_uart.o"
+".\objects\lpc1768_fnd.o"
+".\objects\lpc1768_utility.o"
+".\objects\bmp.o"
+".\objects\startup_lpc17xx.o"
+".\objects\system_lpc17xx.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\LCD.map" -o .\Objects\LCD.axf
